@@ -1,7 +1,7 @@
-
 body {
   margin: 0;
   padding: 0;
+  background-color: #f1f1f1;
 }
 
 .banner {
@@ -10,7 +10,6 @@ body {
   background-position: center;
   height: 420px;
 }
-
 
 .social {
   width: 200px;
@@ -42,16 +41,16 @@ body {
   position: relative;
   top: 125px;
   left: 280px;
-
 }
-nav {
- width: 980px;
- height: 77px;
- margin: 0 auto;
+
+nav, footer {
+  width: 980px;
+  height: 77px;
+  margin: 0 auto;
 }
 
 nav::before {
-  content:'';
+  content: '';
   display: block;
   height: 77px;
   width: 100%;
@@ -85,7 +84,33 @@ nav>ul>li>a {
 }
 
 .main {
+  padding-top: 30px;
   width: 1155px;
+  height: 780px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #f1f1f1;
+  /* border: 1px solid black; */
+}
+
+.content {
+  display: block;
+  width: 288px;
+  height: 240px;
+  float: left;
+  margin-bottom: 45px;
+  margin-right: 7%;
+  padding-bottom: 8px;
+}
+
+.content>p {
+  font-family: 'Comfortaa';
+  font-size: 18px;
+  color: #777777;
+  margin-top: 0;
+}
+
+footer {
+  height: 80px;
+  background-color: #ffffff;
 }
